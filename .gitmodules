@@ -1,0 +1,3 @@
+[submodule "UEFI-CPP-headers"]
+	path = UEFI-CPP-headers
+	url = https://github.com/VioletGiraffe/UEFI-CPP-headers
