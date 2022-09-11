@@ -21,7 +21,7 @@ jobs:
       with:
         vs-version: '[17.0,18.0)'
 
-    - name: Windows - building tests
+    - name: Windows - building the binary
       if: startsWith(matrix.os, 'windows')
       working-directory: ${{env.GITHUB_WORKSPACE}}
       shell: cmd
