@@ -7,10 +7,10 @@ EFI_STATUS EFIAPI efi_main(IN EFI_HANDLE ImageHandle, IN EFI_SYSTEM_TABLE *Syste
 	conOut->ClearScreen(conOut);
 
 	conOut->SetCursorPosition(conOut, 0, 0);
-	conOut->OutputString(conOut, (const CHAR16*)u"Press any key to type.");
+	conOut->OutputString(conOut, u"Press any key to type.");
 
 	conOut->SetCursorPosition(conOut, 0, 1);
-	conOut->OutputString(conOut, (const CHAR16*)u"Or press F12 to quit this application.");
+	conOut->OutputString(conOut, u"Or press F12 to quit this application.");
 
 	conOut->SetCursorPosition(conOut, 0, 3);
 	conOut->EnableCursor(conOut, TRUE);
